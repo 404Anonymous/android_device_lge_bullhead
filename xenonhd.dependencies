@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "franciscofranco/bullhead",
+    "target_path": "kernel/lge/bullhead",
+    "branch": "nougat",
+    "remote": "gh"
+  },
+  {
+    "repository": "vendor_lge",
+    "target_path": "vendor/lge",
+    "remote": "th",
+    "branch": "n"
+  }
+]
