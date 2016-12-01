@@ -1,1 +1,1 @@
-# android_device_lge_bullhead
+# XenonHD Nexus 5X (Bullhead) Device Tree

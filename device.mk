@@ -451,6 +451,10 @@ ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES += \
     QXDMLogger
 
+#Electronic Image Stabilization(1080p only) 
+PRODUCT_PROPERTY_OVERRIDES += \ 
+ persist.camera.eis.enable=1
+
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/init.bullhead.diag.rc.userdebug:root/init.bullhead.diag.rc \
     device/lge/bullhead/init.bullhead.misc.rc.userdebug:root/init.bullhead.misc.rc
