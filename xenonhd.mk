@@ -36,6 +36,6 @@ PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer=Sid
 # Use the latest approved GMS identifiers unless running a signed build
 ifneq ($(SIGN_BUILD),true)
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="google/bullhead/bullhead:7.1.1/N4F26T/3687331:user/release-keys" \
-    PRIVATE_BUILD_DESC="bullhead-user 7.1.1 N4F26T 3687331 release-keys"
+    BUILD_FINGERPRINT="google/bullhead/bullhead:7.1.2/N2G47F/3769476:user/release-keys" \
+    PRIVATE_BUILD_DESC="bullhead-user 7.1.2 N2G47F 3769476 release-keys"
 endif
